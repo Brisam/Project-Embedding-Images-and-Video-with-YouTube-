@@ -1,0 +1,52 @@
+/*General*/
+body{
+  background-color: LightGrey;
+}
+
+/*Navigation Styling*/
+
+#nav{
+  height: 60px;
+  width: 100%;
+  background-color: White;
+  border-bottom: 1px solid DarkGrey;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+input{
+  height: 25px;
+  width: 40rem;
+  display: block;
+  margin: auto;
+  margin-top: .75rem;
+  padding-left: 5px;
+  font-size: 16px;
+  z-index: 5;
+}
+
+/*Sidebar Styling*/
+
+#sidebar{
+  background-color: Blue;
+  height: 1500px;
+  width: 400px;
+  float: right;
+  position: relative;
+  top: 5rem;
+  right: 5rem;
+}
+
+/*Video Div*/
+
+#video_div{
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+}
+
+.video{
+  height: 472px;
+  width: 840px;
+}
