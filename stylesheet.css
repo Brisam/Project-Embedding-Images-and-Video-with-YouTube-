@@ -13,6 +13,7 @@ body{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 5;
 }
 
 input{
@@ -29,7 +30,7 @@ input{
 /*Sidebar Styling*/
 
 #sidebar{
-  background-color: Blue;
+  background-color: white;
   height: 1500px;
   width: 400px;
   float: right;
@@ -49,4 +50,28 @@ input{
 .video{
   height: 472px;
   width: 840px;
+}
+
+/* Other Seperate Divisions*/
+
+.downbar{
+  background-color: white;
+  height: 150px;
+  width: 840px;
+  position: relative;
+  top: 5.5rem;
+  left: 5rem;
+}
+
+.shareable{
+  background-color: white;
+  height: 125px;
+  width: 840px;
+  position: relative;
+  top: 6rem;
+  left: 5rem;
+}
+
+.description_box{
+
 }
